@@ -23,10 +23,12 @@ for(j=0;j<n && i!=j;j++)
 if(a[i]==a[j])
 {
 System.out.println("the first element is"+a[i]);
-//break;
 break out;
-//break in;
 }
+  else
+  {
+   System.out.println("Unique"); 
+  }
 }
 }
 }
