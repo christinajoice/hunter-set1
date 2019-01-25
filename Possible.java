@@ -20,7 +20,7 @@ for(j=0;j<n;j++)
 {
 for(k=0;k<n;k++)
 {
-if(i!=j)
+if(i<j && j<k)
 {
 if(a[i]+a[j]==a[k])
 {
